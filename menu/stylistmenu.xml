@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/myProfile"
+        android:title="My profile"
+
+        />
+    <!--<item
+        android:id="@+id/BankAccount"
+        android:title="Bank Account" />-->
+    <item
+        android:id="@+id/CloseAccount"
+        android:title="Close Account" />
+    <item
+        android:id="@+id/ContactSupport"
+        android:title="Contact Support"
+
+        />
+    <item
+        android:id="@+id/logOut"
+        android:title="Log Out" />
+
+</menu>

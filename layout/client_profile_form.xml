@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.prometteur.divaism.Utils.CustomTextView
+        android:id="@+id/tvName"
+        style="@style/StaticTextDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_curved_grey"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="8dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+    <com.prometteur.divaism.Utils.CustomTextView
+        android:id="@+id/tvMobile"
+        style="@style/StaticTextDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/mobile_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtName" />
+
+
+
+    <EditText
+        android:id="@+id/edtMobile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_curved_grey"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="8dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvMobile"
+        app:layout_constraintTop_toBottomOf="@+id/tvMobile" />
+
+    <com.prometteur.divaism.Utils.CustomTextView
+        android:id="@+id/tvAddress"
+        style="@style/StaticTextDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtMobile" />
+
+
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_curved_grey"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="8dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvAddress"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddress" />
+    <com.prometteur.divaism.Utils.CustomTextView
+        android:id="@+id/tvFacebookId"
+        style="@style/StaticTextDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/facebook_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtAddress" />
+
+
+
+    <EditText
+        android:id="@+id/edtFacebookId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_curved_grey"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="8dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvFacebookId"
+        app:layout_constraintTop_toBottomOf="@+id/tvFacebookId" />
+
+    <com.prometteur.divaism.Utils.CustomTextView
+        android:id="@+id/tvInstagramID"
+        style="@style/StaticTextDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/instagram_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtFacebookId" />
+
+
+
+    <EditText
+        android:id="@+id/edtInstragramID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_curved_grey"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="8dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvInstagramID"
+        app:layout_constraintTop_toBottomOf="@+id/tvInstagramID" />
+
+    <com.prometteur.divaism.Utils.CustomTextView
+        android:id="@+id/tvGmailId"
+        style="@style/StaticTextDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/gmail_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtInstragramID" />
+
+
+
+    <EditText
+        android:id="@+id/edtGmailId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_curved_grey"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="8dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvGmailId"
+        app:layout_constraintTop_toBottomOf="@+id/tvGmailId" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

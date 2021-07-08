@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ClientStylingActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/homeNavBar"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:elevation="4dp"
+            android:fitsSystemWindows="true"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <com.prometteur.divaism.Utils.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/caps_divaism"
+                android:textColor="@color/white"
+                android:textSize="22dp" />
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<RelativeLayout
+                android:id="@+id/relray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civMainPic"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="70dp"
+                    android:src="@drawable/sample_profileimg" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civPicToRight"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@id/tvStylingText"
+                    android:src="@drawable/sample_profileimg" />
+
+                <com.prometteur.divaism.Utils.CustomTextView
+                    android:id="@+id/tvStylingText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_round_white_border"
+                    android:maxLines="2"
+                    android:paddingStart="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civPicToLeft"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/civPicToRight"
+                    android:layout_marginLeft="35dp"
+                    android:src="@drawable/sample_profileimg" />
+
+                <com.prometteur.divaism.Utils.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/civMainPic"
+                    android:layout_marginTop="-30dp"
+                    android:layout_toEndOf="@id/tvStylingText"
+                    android:background="@drawable/bg_round_green"
+                    android:padding="8dp"
+                    android:text="KS"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    />
+
+            </RelativeLayout>-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/relray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+
+                <ImageView
+                    android:id="@+id/civMainPic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    />
+
+
+               <!-- <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civMainPic"
+                    android:layout_width="0dp"
+                    android:layout_height="320dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/sample_profileimg" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civPicToRight"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/tvStylingText"
+                    android:src="@drawable/sample_profileimg" />
+
+                <com.prometteur.divaism.Utils.CustomTextView
+                    android:id="@+id/tvStylingText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bg_round_white_border"
+                    android:maxLines="2"
+                    android:text="@string/styling_n_photo"
+                    android:paddingStart="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civPicToLeft"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/civPicToRight"
+                    android:layout_marginLeft="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/civPicToRight"
+                    android:src="@drawable/sample_profileimg" />
+
+                <com.prometteur.divaism.Utils.CustomTextView
+                    android:id="@+id/tvReplyText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/civMainPic"
+                    android:layout_marginTop="180dp"
+                    android:layout_toEndOf="@id/tvStylingText"
+                    android:background="@drawable/bg_round_green"
+                    android:padding="15dp"
+                    android:text="KS"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/civPicToRight"
+                    android:layout_marginLeft="90dp"
+                    android:textSize="18dp"
+                    />-->
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llLinksContainer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/relray"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="vertical"
+                />
+
+            <com.prometteur.divaism.Utils.CustomTextView
+                android:id="@+id/tvstatRating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:background="@color/grey"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/rating"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/llLinksContainer" />
+
+            <RatingBar
+                android:id="@+id/rbMyRatings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:theme="@style/RateStartBlack"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvstatRating" />
+
+            <com.prometteur.divaism.Utils.CustomTextView
+                android:id="@+id/tvstatCommenting"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/commenting"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rbMyRatings" />
+
+            <EditText
+                android:id="@+id/edtComments"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/whitetrans"
+                android:textAllCaps="false"
+                android:inputType="text"
+                android:textSize="18sp"
+                android:paddingBottom="@dimen/_8sdp"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="@id/tvstatCommenting"
+                app:layout_constraintStart_toStartOf="@id/tvstatCommenting"
+                app:layout_constraintTop_toBottomOf="@id/tvstatCommenting" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/black"
+                android:layout_marginBottom="50dp"
+                app:layout_constraintEnd_toEndOf="@id/edtComments"
+                app:layout_constraintStart_toStartOf="@id/edtComments"
+                app:layout_constraintTop_toBottomOf="@id/edtComments" />
+
+            <com.prometteur.divaism.Utils.CustomButton
+                android:id="@+id/btnSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:paddingLeft="@dimen/_20sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/view1"
+                app:layout_constraintEnd_toEndOf="@id/view1"
+                android:background="@drawable/bg_round_black"
+                />
+            <View
+                android:id="@+id/view2"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/btnSubmit"
+                app:layout_constraintStart_toStartOf="@id/btnSubmit"
+                app:layout_constraintTop_toBottomOf="@id/btnSubmit" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

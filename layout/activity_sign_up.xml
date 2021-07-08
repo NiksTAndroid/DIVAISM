@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <com.prometteur.divaism.Utils.CustomButton
+        android:id="@+id/btnInstagram"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_instagram"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_70sdp"
+         />
+
+
+    <com.prometteur.divaism.Utils.CustomButton
+        android:id="@+id/btnFaceBook"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_facebook"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_70sdp"
+       />
+    <com.prometteur.divaism.Utils.CustomButton
+        android:id="@+id/btnGmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_google"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+         />
+</LinearLayout>

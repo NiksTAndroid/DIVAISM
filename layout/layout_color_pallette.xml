@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/toolbar_background"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/ibWhite"
+        android:layout_width="@dimen/color_pallette_item_size"
+        android:layout_height="@dimen/color_pallette_item_size"
+        android:background="@drawable/circle_white_text_color"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ibBlack"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibBlack"
+        android:layout_width="@dimen/color_pallette_item_size"
+        android:layout_height="@dimen/color_pallette_item_size"
+        android:background="@drawable/circle_black_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/ibWhite"
+        app:layout_constraintEnd_toStartOf="@+id/ibBrown"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibWhite"
+        app:layout_constraintTop_toTopOf="@+id/ibWhite" />
+
+    <ImageButton
+        android:id="@+id/ibBrown"
+        android:layout_width="@dimen/color_pallette_item_size"
+        android:layout_height="@dimen/color_pallette_item_size"
+        android:background="@drawable/circle_brown_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/ibBlack"
+        app:layout_constraintEnd_toStartOf="@+id/ibBlue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibBlack"
+        app:layout_constraintTop_toTopOf="@+id/ibBlack" />
+
+    <ImageButton
+        android:id="@+id/ibBlue"
+        android:layout_width="@dimen/color_pallette_item_size"
+        android:layout_height="@dimen/color_pallette_item_size"
+        android:background="@drawable/circle_blue_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/ibBrown"
+        app:layout_constraintEnd_toStartOf="@+id/ibGreen"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibBrown"
+        app:layout_constraintTop_toTopOf="@+id/ibBrown" />
+
+    <ImageButton
+        android:id="@+id/ibGreen"
+        android:layout_width="@dimen/color_pallette_item_size"
+        android:layout_height="@dimen/color_pallette_item_size"
+        android:background="@drawable/circle_green_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/ibBlue"
+        app:layout_constraintEnd_toStartOf="@+id/ibYellow"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibBlue"
+        app:layout_constraintTop_toTopOf="@+id/ibBlue" />
+
+    <ImageButton
+        android:id="@+id/ibYellow"
+        android:layout_width="@dimen/color_pallette_item_size"
+        android:layout_height="@dimen/color_pallette_item_size"
+        android:background="@drawable/circle_yellow_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/ibGreen"
+        app:layout_constraintEnd_toStartOf="@+id/ibOrange"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibGreen"
+        app:layout_constraintTop_toTopOf="@+id/ibGreen" />
+
+    <ImageButton
+        android:id="@+id/ibOrange"
+        android:layout_width="@dimen/color_pallette_item_size"
+        android:layout_height="@dimen/color_pallette_item_size"
+        android:background="@drawable/circle_orange_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/ibYellow"
+        app:layout_constraintEnd_toStartOf="@+id/ibRed"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibYellow"
+        app:layout_constraintTop_toTopOf="@+id/ibYellow" />
+
+    <ImageButton
+        android:id="@+id/ibRed"
+        android:layout_width="@dimen/color_pallette_item_size"
+        android:layout_height="@dimen/color_pallette_item_size"
+        android:background="@drawable/circle_red_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/ibOrange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibOrange"
+        app:layout_constraintTop_toTopOf="@+id/ibOrange" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

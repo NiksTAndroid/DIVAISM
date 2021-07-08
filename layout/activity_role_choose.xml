@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+   android:gravity="center"
+    android:layout_height="match_parent"
+    >
+
+
+    <com.prometteur.divaism.Utils.CustomButton
+        android:id="@+id/btnClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_round_black"
+        android:text="@string/client"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="70dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <com.prometteur.divaism.Utils.CustomButton
+        android:id="@+id/btnStylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_round_black"
+        android:text="@string/stylist"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+</LinearLayout>

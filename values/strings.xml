@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Divaism</string>
+    <string name="title_activity_role_choose" translatable="false">RoleChooseActivity</string>
+    <!--<string name="GoogleClientID" translatable="false"> 426223449063-u2ka2qoeahuvtt7e0hduipn9khifdt4h.apps.googleusercontent.com </string>-->
+    <string name="GoogleClientID" translatable="false">  1057401918006-214ftli317hmt2iuub8pqmau2siecaph.apps.googleusercontent.com  </string>
+    <string name="GoogleSecretKey" translatable="false"> WDNa3hKiwsuvsuCsV84SCSI_</string>
+
+    <string name="hello_world" translatable="false">Hello Square World!</string>
+    <string name="client">Client</string>
+    <string name="stylist">Stylist</string>
+    <string name="title_activity_sign_up" translatable="false">SignUpActivity</string>
+    <string name="instagram">Instagram</string>
+    <string name="gmail">Gmail</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebook_app_id" translatable="false">309589793955837</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb309589793955837</string>
+    <string name="client_id" translatable="false">be4e18da7131477e8503ab2d904fb232</string>
+    <string name="instaclient_id" translatable="false">275860894333715</string>
+    <string name="instaSecretKey" translatable="false">34f6991bd24418ff7124109ae8533e6e</string>
+    <string name="callback_url" translatable="false">https://instagram.com/</string>
+    <string name="redirect_url" translatable="false">https://google.com/</string>
+    <string name="base_url" translatable="false">https://api.instagram.com/</string>
+    <string name="get_user_info_url" translatable="false">https://api.instagram.com/v1/users/self/?access_token=</string>
+    <string name="name">Name</string>
+    <string name="country">Country</string>
+    <string name="edit">Edit</string>
+    <string name="city">City</string>
+    <string name="background">Background</string>
+    <string name="skills">Skills</string>
+    <string name="i_am_good_at">I am good at</string>
+    <string name="favorite_brands">Favorite Brands</string>
+    <string name="instagram_id">Instagram ID</string>
+    <string name="close_account">Close Account</string>
+    <string name="search_stylist">Search stylist</string>
+    <string name="other_links">Other links</string>
+    <string name="hashtag"># Hashtag</string>
+    <string name="experience">Experience</string>
+
+    <string name="review">REVIEW</string>
+    <string name="message">MESSAGE</string>
+    <string name="caps_divaism" translatable="false">DIVAISM</string>
+    <string name="styling_n_photo" translatable="false">Styling <br />\nPhoto</string>
+    <string name="commenting">Comment</string>
+    <string name="request_form">Request Form</string>
+    <string name="body_type">Body Type</string>
+    <string name="unfavorite_color_to_avoid">Unfavorite Color (To avoid)</string>
+    <string name="ideal_price_range">Ideal Price Range</string>
+    <string name="photo_upload">Photo Upload</string>
+    <string name="please_fill_in_as_many_as_possible">Please fill in as many as possible</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="address">Address</string>
+    <string name="facebook_id" translatable="false">Facebook ID</string>
+    <string name="gmail_id" translatable="false">Gmail ID</string>
+    <string name="update">Update</string>
+    <string name="add_comments">Add comments</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="send">Send</string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="lbl_set_profile_photo">Select Photo</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="done">Done</string>
+    <string name="gender">Gender</string>
+    <string name="height">Height</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="reviewAddedSuccess">Review added Successfully.</string>
+    <string name="reviewAddedFailure">Failed</string>
+    <string name="infailure">in Failure</string>
+    <string name="profileUpdate">Profile updated successfully.</string>
+    <string name="cm">cm</string>
+    <string name="inch">inch</string>
+    <string name="age">Age</string>
+    <string name="selectBodyType">Please select body Type.</string>
+    <string name="loginGoogle">Log in with Google</string>
+    <string name="download_image">Download Image</string>
+    <string name="do_you_want_to_download_this_image">Do you want to download this image</string>
+    <string name="download">Download</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose">Choose</string>
+    <string name="imageDownloaded">Image Downloaded</string>
+    <string name="delete">Delete</string>
+    <string name="DeleteSuccessfull">Your Account is deleted successfully.</string>
+    <string name="delete_confirm">Close confirm ?</string>
+    <string name="cannot_rate">You cannot rate this user.</string>
+    <string name="rating">Rating</string>
+    <string name="somethingwentwrong">Something went wrong</string>
+    <string name="enter_link">Enter Link</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="are_you_going_to_add_a_new_page">Are you going to add a new page?</string>
+    <string name="Request_Sent">Request sent successfully</string>
+    <string name="formSaved">Form saved successfully.</string>
+    <string name="formUpdated">Form updated successfully.</string>
+    <string name="FillallDetails" translatable="false">Please fill all the details.</string>
+    <string name="close">Close</string>
+    <string name="are_you_sure_you_want_to_close">Are you sure you want to close this account? Once you close your account you will not be able to access this account again.</string>
+    <string name="other_comments">Other Comments</string>
+    <string name="messageSent">Message sent.</string>
+    <string name="see_more">See more...</string>
+    <string name="rating_and_reviews">Ratings and Reviews</string>
+    <string name="please_entervalidLink">Please enter valid link.</string>
+
+
+    <!--key hashes chKcbWe8i4xHXZ0F9MaIYl0Gocs= for facebook-->
+<!--
+    <string name="LinkAdded">Link added successfully.</string>
+-->
+
+</resources>
